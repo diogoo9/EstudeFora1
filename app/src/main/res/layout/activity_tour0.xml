@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/california"
+    tools:context="com.example.android.estudefora.Tour0Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="1º Priorizar etapas    >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="p1"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="2º Melhorar seu idioma   >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="Tour2"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="3º Expectativas   >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="p3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="4º Escolha do local   >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="p4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="5º Como ingressar na faculdade >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="p5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="6º Crie seu plano de preparação  >"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="p6"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:text="inicio "
+                android:textStyle="bold"
+
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:onClick="inicio"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

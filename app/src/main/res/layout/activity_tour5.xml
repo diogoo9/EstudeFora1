@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toronto"
+    tools:context="com.example.android.estudefora.Tour5Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Entenda como funciona o processo de admissão no exterior e o que é avaliado pelas universidades"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Diferente do vestibular brasileiro, o processo de admissão em universidades fora é feito de forma mais holística, valorizando o perfil do estudante juntamente com o seu desempenho acadêmico. Segundo Lucerito Ortiz, admissions officer de Harvard, o desempenho acadêmico do candidato, sua participação em atividades extracurriculares e suas qualidades pessoais são os três pontos mais avaliados no processo. “Estamos interessados não apenas no que você quer fazer ou estudar, mas em quem você será na nossa escola”, afirma. Ela também revela que não existe uma fórmula certa para garantir a sua entrada na universidade, o principal é ser autêntico.
+
+Entender o processo e o que é avaliado irá te ajudar partir para o próximo ponto, que é se questionar o quão preparado você está, em que precisa melhorar e o que fazer para se tornar um candidato mais atrativo.
+"
+        android:padding="6dp"
+        android:background="#ccffffff"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="voltar"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

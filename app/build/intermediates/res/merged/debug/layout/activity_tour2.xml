@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toronto"
+    tools:context="com.example.android.estudefora.Tour2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="Melhore sua fluência no idioma"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#ccffffff"
+        android:text="  O idioma do país em que você pretende Estudar Fora deve ser um dos nortes para o seu preparo. Se você ainda não é fluente nele, um dos primeiros passos é reforçar seus estudos e praticar em conversações. Isso porque o processo de admissão será todo nesta língua; a maioria das universidades requer testes de proficiência no idioma como parte do processo de admissão e por último, caso você seja aprovado, todas as suas aulas (e sua vida em geral) passará a ser neste idioma.
+Mas se você não é fluente, não se desespere. Muitos alunos que foram aprovados em universidades excelentes no exterior não tinham o inglês fluente quando começaram a se preparar. Com dedicação eles treinaram e conseguiram chegar lá.
+"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="voltar"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

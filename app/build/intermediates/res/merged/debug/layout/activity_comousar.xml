@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.estudefora.ComousarActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Como usar o app ? \n esse Aplicativo foi feito de um jeito muito simples de navegar, abaixo temos algumas instruções :\n \nNossa dicas estão divididas por categorias "
+                android:gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textSize="20dp"
+                android:textColor="#00008B" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/print1"
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:textSize="20dp"
+                android:textColor="#00008B"
+                android:text="para ver a categoria você clica no nome dela \npara voltar você clica no botão voltar"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/print12"
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Dentro das categorias você usa a mesmal lógica para retornar a pagina anterior."
+                android:gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textSize="20dp"
+                android:textColor="#00008B" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/capturad"
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" viu que não e dificil, com essas informões você vai nagevar no app."
+                android:gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textSize="20dp"
+                android:textColor="#00008B" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="v1"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

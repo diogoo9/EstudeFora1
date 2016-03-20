@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toronto"
+    tools:context="com.example.android.estudefora.Tour01Activity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Priorizar etapas"
+                android:textSize="30dp"
+                android:textStyle="bold"
+               android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="• Melhorar a fluência no idioma \n• Escolher quais universidades se candidatar\n• Se informar sobre o processo de admissão\n• Fazer um bom plano de estudos..."
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_margin="9dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="v1"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

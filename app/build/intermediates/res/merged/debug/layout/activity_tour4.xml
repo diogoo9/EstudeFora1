@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coliseu"
+    tools:context="com.example.android.estudefora.Tour4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Pesquisa e escolha onde quer estudar"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="   Entender o que as diferentes instituições tem a oferecer são super importantes no seu caminho para Estudar Fora. Por quê? O processo de admissão em uma faculdade fora é mais complexo, possui diferentes etapas (formulários, redações, entrevista, análise de currículo) e exige que você dedique muito tempo e atenção para cada universidade em específico. “O aluno precisa entender bem o que espera das universidades, o que cada uma pede em seu processo de admissão e o que elas tem a oferecer. Cruzando esse fatores, ele chegará a uma boa lista de universidades e poderá se preparar de uma forma mais focada nos processos”, explica Laila Parada-Worby, coordenadora do Prep Program.\n Algumas instituições, como College Board e o US News Report possuem informações bem completas para te ajudar a entender estas etapas e os perfis de cada universidade. O College Board, por exemplo, possui uma iniciativa chamada Big Future em seu site. Pelo Big Future você pode pesquisar perfis de universidades, pesquisar bolsas de estudo e fazer um plano de preparação. Já o US News Report traz a você um dos principais rankings internacionais universitários, juntamente com perfis das universidades, e matérias relacionadas ao processo de admissão nos EUA."
+        android:padding="6dp"
+        android:background="#ccFFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="voltar"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+</LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

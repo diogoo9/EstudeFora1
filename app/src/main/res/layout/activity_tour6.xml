@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toronto"
+    tools:context="com.example.android.estudefora.Tour6Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="Faça uma autoanálise e crie um plano de preparação"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="suas expectativas, quais universidades se encaixam nelas e como funciona o processo de admissão em cada, o próximo passo é se preparar para se candidatar. Para isso, faça uma autoanálise e defina quais são os seus pontos fracos. Reflita como você pode melhorar nesses pontos e faça um plano de preparação, colocando no papel o que você precisa melhorar, quais metas quer alcançar, quais ações deve fazer para alcançá-las, o cronograma dessas ações e formas de medir o seu progresso.
+
+Agora que você já sabe quais são os primeiros passos que deve tomar rumo às melhores universidades do mundo, confira o vídeo em que a Laila, coordenadora do Prep Program, fala sobre os principais fatores que deve considerar na hora de Estudar Fora
+."
+        android:padding="6dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#ccffffff"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="voltar"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+</LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

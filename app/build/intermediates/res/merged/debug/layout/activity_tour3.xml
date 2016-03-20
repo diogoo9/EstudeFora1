@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/california"
+    tools:context="com.example.android.estudefora.Tour3Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Reflita sobre as suas expectativas em relação ao seu curso no exterior"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#ccffffff"
+        android:text=" Quando você pensa na sua graduação, quais são os objetivos que você sonha em atingir com essa experiência? Essa é uma pergunta que você pode fazer a si mesmo para entender melhor quais são as suas expectativas para a graduação. “Se você toma a decisão de ir estudar fora, você tem que saber muito bem o que quer, se não corre o risco de chegar lá, se desapontar, e não ter a melhor experiência que poderia ter tido."
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" voltar"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="voltar"
+                android:layout_margin="9dp"
+                android:padding="9dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

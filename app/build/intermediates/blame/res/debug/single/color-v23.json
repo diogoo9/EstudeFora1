@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\EstudeFora\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\EstudeFora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cesmac\\AndroidStudioProjects\\EstudeFora\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\cesmac\\AndroidStudioProjects\\EstudeFora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\EstudeFora\\EstudeFora\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\EstudeFora\\EstudeFora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]

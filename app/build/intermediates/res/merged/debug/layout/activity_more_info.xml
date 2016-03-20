@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/canada2"
+    tools:context="com.example.android.estudefora.MoreInfoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="6dp"
+        android:background="#ccffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="  Este aplicativo foi feito na intuito de ajudar a quem quer cursar uma universidade no exterior e não sabe por onde começar. \n   Claro que não vamos lhe encaminha,esse aplicativo vai te orientar na busca da informações nessecarias ."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inicio"
+                android:background="#1e90ff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:onClick="inicio"
+                android:layout_margin="9dp"
+                android:padding="9dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
